@@ -3,3 +3,14 @@
 *.iml
 *.iws
 *.ipr
+
+# Jekyll
+_site/
+.sass-cache/
+*.gem
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundle
+.bundle/
+vendor/
