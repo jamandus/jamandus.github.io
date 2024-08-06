@@ -1,16 +1,5 @@
-# IntelliJ
-.idea/
-*.iml
-*.iws
-*.ipr
-
-# Jekyll
-_site/
-.sass-cache/
-*.gem
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-
-# Bundle
-.bundle/
-vendor/
+vendor
