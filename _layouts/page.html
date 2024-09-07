@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-</head>
-<body>
-<div>
-  {% include navigation.html %}
-  {{ content }}
-</div>
-</body>
-</html>
+---
+layout: base
+---
+<article class="post">
+
+  <header class="post-header">
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

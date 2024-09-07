@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e98531a-2f04-4318-92d3-daab614f9bff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/social-icons/fungi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/social-icons/journal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/social-icons/trello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/social-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/social.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2024-08-11-cucumber-and-bdd-tinkering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/minima.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/minima/_syntax-highlighting.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/gora/gora.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/cucumber-and-bdd/cucumbers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/cucumber-and-bdd/general-tech-picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/cucumber-and-bdd/scenario-outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/cucumber-and-bdd/tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/cucumber-and-bdd/test-results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/state-of-devops-reflection/blurry-google-sign.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/posts/state-of-devops-reflection/general-tech-picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/whoami/jamandus-in-forest.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gora.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hobby-projects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/whoami.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-08-01-first-entry.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-08-01-first-entry.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-08-05-state-of-devops-reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-08-05-state-of-devops-reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jamandus/jamandus-in-forest.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/jamandus-in-forest.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/journal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whoami.md" beforeDir="false" afterPath="$PROJECT_DIR$/whoami.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hjutuRibNr2rnFHaEZGCcYQdME" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;add__supported__theme&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jacob/projects/jamandus.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/assets/whoami" />
+      <recent name="$PROJECT_DIR$/_includes/social-icons" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/gora" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/posts" />
+      <recent name="$PROJECT_DIR$/_posts/drafts" />
+      <recent name="$PROJECT_DIR$/_includes/social-icons" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e98531a-2f04-4318-92d3-daab614f9bff" name="Changes" comment="" />
+      <created>1718120029793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718120029793</updated>
+      <workItem from="1718120030868" duration="75387000" />
+      <workItem from="1723577511872" duration="218000" />
+      <workItem from="1723577861450" duration="34362000" />
+      <workItem from="1725265825113" duration="63512000" />
+      <workItem from="1725626301250" duration="15634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
+  </component>
+</project>
