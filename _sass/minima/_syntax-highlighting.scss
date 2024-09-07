@@ -1,0 +1,308 @@
+// Main text
+
+body {
+  font-family: "Helvetica ", Helvetica, Sans-serif, sans-serif;
+}
+
+.current {
+  zoom: 150%;
+  transition-duration: 0.3s;
+}
+
+// Header
+
+.site-title-icon {
+  color: $text-color;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.site-title-icon a:hover {
+  color: $site-title-color;
+}
+
+.site-title-icon a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+.site-title-icon a:first-child {
+  position: relative;
+  top: 12px;
+  z-index: 2;
+}
+
+.site-title-icon a:last-child {
+  position: relative;
+  top: -13px;
+  left: -8.5px;
+  z-index: 1;
+}
+
+.site-header a {
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  @include relative-font-size(1.625);
+  font-family: "Fahkwang", Fahkwang, fantasy, fantasy;
+  font-weight: 100;
+  letter-spacing: -2px;
+  margin-top: -10px;
+  margin-bottom: -5px;
+  margin-left: 50px;
+  font-size: 34px;
+  float: right;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $text-color;
+  }
+}
+
+.site-nav a:hover {
+  color: $site-title-color;
+}
+
+.site-nav {
+  margin-top: 15px;
+  margin-right: 50px;
+  position: absolute;
+  top: 9px;
+  right: $spacing-unit * .5;
+  background-color: $background-color;
+  text-align: right;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    border: 5px solid mediumseagreen;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .page-link {
+    line-height: $base-line-height;
+    font-size: 20px;
+    color: $text-color;
+    text-decoration: none;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+      margin-left: auto;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+// NAV WRAPPER
+.custom-wrapper {
+  max-width: inherit;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Home
+
+.page-heading {
+  color: $site-title-color;
+  margin-left: -23px;
+  font-size: 26px;
+}
+
+.post-list li {
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.post-meta, h3 {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.post-meta {
+  margin-right: 0;
+  font-size: 12px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+a.post-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Footer
+
+.u-email {
+  color: darkorange;
+}
+
+a.u-email:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+  color: rgba(130, 130, 130, 0.7);
+}
+
+.svg-icon:hover {
+  color: $hover-link-color;
+}
+
+.social-media-list li a, .pagination li a {
+  margin-top: -25px;
+  display: block;
+  padding: 10px 12px;
+  border: 1px solid white;
+}
+
+.footer-col:first-child {
+  padding: 10px 20px 10px 10px;
+}
+
+.footer-col:last-child {
+  margin-top: 6px;
+}
+
+// Posts
+
+img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+img.small-img {
+  height: 250px;
+  object-fit: fill;
+}
+
+img.medium-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+img.large-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+img.profile-picture {
+  width: 70%;
+  height: 250px;
+  float: inherit;
+}
+
+// Static link
+a.static-link {
+  color: $hover-link-color;
+}
+
+a.static-link:link:active,
+a.static-link:visited:active,
+a.static-link:hover {
+  color: $site-title-color;
+  text-decoration: none;
+}
+
+// Dynamic link
+a.dynamic-link {
+  color: $hover-link-color;
+  background-color: white;
+  padding: 0px 30px;
+  transition: border-color 0.3s, color 0.3s, padding 0.3s;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+a.dynamic-link:link:active,
+a.dynamic-link:visited:active,
+a.dynamic-link:hover {
+  color: $site-title-color;
+  text-decoration: none;
+  padding: 0px 50px;
+  transition-duration: 0.3s;
+}
