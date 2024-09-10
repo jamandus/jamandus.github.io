@@ -3,17 +3,13 @@ layout: post
 title: "Cucumber and BDD tinkering"
 author: Jacob
 ---
-**A glance at BDD, my Cucumber adventure**
-<br/>
-Refactoring an old Javascript testbot, then Cucumber and Gherkin enters!
+<h5>A glance at BDD, my Cucumber adventure</h5>
+Quickly after joining my team, I learned about the Javascript testbot that works but somebody left to slowly be forgotten.
+Once granted time, the team looked into refactor the artifact using Cucumber as the new default tool to conduct and run automated integration testing with.
 
 <br/>
 <div style="text-align: center"><img class="medium-img" title="cucumbers" alt="cucumbers" src="/assets/posts/cucumber-and-bdd/cucumbers.jpg"></div>
 <br/>
-
-Quickly after joining my team, I learned about the Javascript testbot that works but somebody left to slowly be forgotten. 
-Once granted time, the team looked into using Cucumber as the new default tool to conduct and run integration testing with.
-
 **How can you use Cucumber?**
 
 Cucumber is a testing tool that supports behavior-driven development(_BDD_), enabling users to define and run automated tests based on Gherkin syntax. **What is Gherkin you might wonder?**

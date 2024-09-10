@@ -3,8 +3,7 @@ layout: post
 title:  "State of DevOps reflection"
 author: Jacob
 ---
-**Care for some DevOps?**
-<br/>
+<h5>Care for some DevOps?</h5>
 Whether it's your ways of working or not, leaning into it can benefit software delivery, operational, and organizational performance. 
 I have come to gain ideas and insights that spark personal growth - I like taking ownership, dare to try new things, collaborate with people sharing their knowledge and experience.
 

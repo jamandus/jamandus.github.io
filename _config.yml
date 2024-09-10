@@ -26,9 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Local build settings
-#theme: minima
+theme: minima
 # GitHub Pages build settings
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
@@ -47,6 +47,7 @@ minima:
     - { platform: trello, user_url: "https://trello.com/w/tekknology", title: Trello dashboard at Trello.com }
     - { platform: fungi, user_url: "https://trello.com/b/GhjLZMoY/tekk-fungi", title: Tekk-Fungi backlog at Trello.com }
     - { platform: journal, user_url: "https://trello.com/b/xW9tnoYF/github-io", title: GitHub-IO backlog at Trello.com }
+    - { platform: map, user_url: "https://miro.com/welcomeonboard/ZHVWaERDTjdUWkd0ckcyNkFacHU1cVh3ZDA1Q3lVZkJ3M05JeUpZcWxpMjZNNk5HWlp4Yko2UE9xbzBMU3g1QnwzNDU4NzY0NTk5MzUxMTk1NjkwfDI=?share_link_id=38757667311", title: Tekk-Stakk-Map at Miro.com }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
