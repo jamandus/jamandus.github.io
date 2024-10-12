@@ -4,8 +4,12 @@ title: gora
 permalink: /gora/
 ---
 <div style="text-align: center">
+<br/>
+<br/>
 <h3>FM GORA</h3>
 </div>
+<br/>
+<br/>
 <br/>
 <br/>
 <div class="gora">

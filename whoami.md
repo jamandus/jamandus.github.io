@@ -24,5 +24,6 @@ ________________________________________________________________________________
   teams and customers.
 <br/>
 <br/>
-<div style="text-align: center"><img class="profile-picture" title="jamandus" alt="jamandus" src="/assets/whoami/jamandus-in-forest.jpeg"></div>
 <br/>
+<br/>
+<div style="text-align: center"><img class="profile-picture" title="jamandus" alt="jamandus" src="/assets/whoami/jamandus-in-forest.jpeg"></div>
