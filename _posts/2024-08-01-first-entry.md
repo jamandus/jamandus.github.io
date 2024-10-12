@@ -19,8 +19,8 @@ Martin often ends up helping me with various consultant issues, sometimes not en
 He also inspired my first Christmas blog post in 2022, a tradition at Squeed, which I titled "_Care for some DevOps?_".
 
 Every year, my consultancy firm publishes educational blog posts the days leading up to Christmas. 
-I read and refleted on that year's <a href="https://cloud.google.com/devops/state-of-devops" class="static-link">State of DevOps Report</a>
-Here's a preview from my contribution, which I will elaborate on in my next post. 
+I read and reflected on that year's <a href="https://cloud.google.com/devops/state-of-devops" class="static-link">State of DevOps Report</a>,
+here's a preview from my contribution, which I will elaborate on in my next post. 
 
 "_As a fairly new member of Squeed and Software Engineer I sometimes face technical overload in our industry.
 Adaptation to new tech is essential and a growth mindset coupled with speed is a winning strategy._

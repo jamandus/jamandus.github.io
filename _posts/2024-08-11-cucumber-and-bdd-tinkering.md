@@ -84,7 +84,6 @@ This is after one _"Security Access Control"_ execution, here is where you can r
 - Conduct initial troubleshooting without programming knowledge
 
 <br/>
-<br/>
 Before leaving the team, one of my senior colleagues left me with a great gift and idea. 
 Prior to decommissioning the old testbot, we used it for load testing but we had to keep track of a various tools, execute python scripts in sequence to update required data and align system processes. 
 
@@ -114,7 +113,7 @@ The current main goal is to take care of our newborn - we are still trying to fi
 
 Call to papers has been announced for our upcoming internal conference <a href="https://squeedbrew-tech-2025.sessionize.com/" class="static-link">SqueedBrew Tech 2025</a>.
 <br/>
-This years talk was a mix of topics of which I've stumbled upon last two years <a href="https://squeedbrew-tech-2024.sessionize.com/" class="static-link">SqueedBrew Tech 2024</a>.
+This year's talk was a mix of topics of which I've stumbled upon last two years <a href="https://squeedbrew-tech-2024.sessionize.com/" class="static-link">SqueedBrew Tech 2024</a>.
 
 Here are the latest updates from my backlog, detailing stories and their status at the moment.
 
