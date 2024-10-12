@@ -5,7 +5,7 @@ author: Jacob
 ---
 <h5>Local DynamoDB setup with Maven</h5>
 <br/>
-This DynamoDB adventure has been long-coming, I was exposed to its kit on an assignment a while back and I really enjoyed it. 
+This DynamoDB adventure has been long-coming, I was exposed to its kit on an assignment a while back and I really enjoyed it.
 It was my first experience with a NoSQL database, on top of that they were also running a local instance of the cloud provided service.
 In contrast to my apartment renovation, this is a great way of being able to develop, test, and **learn while doing** without actually having to put down any _"training-money"_.
 
@@ -14,7 +14,7 @@ To be frank, I haven't iterated or challenged my first database schema once at t
 
 Already out of scope, diving right into the technical part of DynamoDB setup.
 
-There are two additional ways of using DynamoDB local, either you simply download the archive or run it as Docker image. 
+There are two additional ways of using DynamoDB local, either you simply download the archive or run it as Docker image.
 We are going to revisit this and run it as a Docker image as well, but at a later stage once the new <a href="https://github.com/jamandus/tekk-spore-scrutinizer" class="static-link">tekk-spore-scrutinizer</a> component has matured past its initial stage.
 
 In my <a href="https://github.com/jamandus/tekk-mushroom-manor" class="static-link">tekk-mushroom-manor</a> I run DynamoDB Local v.2 as a Maven dependency as it was the most natural move for me.
@@ -25,7 +25,7 @@ In my <a href="https://github.com/jamandus/tekk-mushroom-manor" class="static-li
 <br/>
 
 
-In short, to get up an running you need to import necessary Maven packages, configure a local server to adhere to your environment such as which port or amount of memory usage. 
+In short, to get up an running you need to import necessary Maven packages, configure a local server to adhere to your environment such as which port or amount of memory usage.
 And lastly define a DynamoDB client, specifying credentials, http client and endpoints in order to create database resources and configuration for your local instance.
 
 <br/>
@@ -71,7 +71,7 @@ To integrate DynamoDB Local, start by adding necessary Maven dependencies to the
 - _DynamoDBLocal_: dependency for the in-memory server instance that mimics the DynamoDB cloud service.
 
 - _ion-java_: excluded since there is a vulnerability within the ion-java package which hasn't been patched yet.
-  - CVE-2024-21634 vulnerability is handled by overwriting the infected version to v.1.11.9, a later one without.
+    - CVE-2024-21634 vulnerability is handled by overwriting the infected version to v.1.11.9, a later one without.
 
 <br/>
 >Step 2: Configure Local DynamoDB
@@ -246,10 +246,10 @@ private List<GlobalSecondaryIndex> createIndexes() {
 <br/>
 At one point I was getting a particular error while constructing the table, I had already defined the table in CloudFormation but now time had come to create the actual DynamoDB table with its indexes.
 
-This syntax error was called **ERROR**, it occurred when I was defining additional indexes in conjunction with certain attributes. 
+This syntax error was called **ERROR**, it occurred when I was defining additional indexes in conjunction with certain attributes.
 I found myself searching forums, websites and AWS SDK docs to my best ability, never to find the rule prohibiting me from achieving this.
 
-I had no issue while creating or linting my CloudFormation template, so this was isolated to the AWS SDK. 
+I had no issue while creating or linting my CloudFormation template, so this was isolated to the AWS SDK.
 
 Solving the issue made me no smarter, it appeared to be a syntax issue whereas if I populated ".globalSecondaryIndexes(createIndexes())" with a method called "createIndexes()" instead of directly building a list with GlobalSecondaryIndex.builder() I could circumvent the issue.
 
@@ -262,7 +262,7 @@ Next up in my itinerary is developing the Java implementation, starting with a c
 <br/>
 
 The local DynamoDB setup has paved the way for further development in my Tekk-Fungi project.
-In my backlog are plans to utilize this setup in the <a href="https://github.com/jamandus/tekk-spore-scrutinizer" class="static-link">tekk-spore-scrutinizer</a> component, 
+In my backlog are plans to utilize this setup in the <a href="https://github.com/jamandus/tekk-spore-scrutinizer" class="static-link">tekk-spore-scrutinizer</a> component,
 and eventually create test suites which serve as integration testing within the ecosystem. This journey is about exploration and challenging my technical ability in order to grow.
 
 ---

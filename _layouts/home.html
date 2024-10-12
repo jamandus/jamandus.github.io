@@ -9,21 +9,36 @@ layout: base
 
   {{ content }}
 
-
   {% if site.paginate %}
   {% assign posts = paginator.posts %}
   {% else %}
   {% assign posts = site.posts %}
   {% endif %}
 
-
   {%- if posts.size > 0 -%}
   {%- if page.list_title -%}
   <h2 class="post-list-heading">{{ page.list_title }}</h2>
   {%- endif -%}
+
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
+    {%- if post.tags contains 'draft' -%}
+
+    <li>
+      <span class="post-meta" style="opacity: 0.4">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link dynamic-link" style="opacity: 0.4">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+
+    {% else %}
+
     <li>
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <h3>
@@ -35,6 +50,8 @@ layout: base
       {{ post.excerpt }}
       {%- endif -%}
     </li>
+
+    {%- endif -%}
     {%- endfor -%}
   </ul>
 

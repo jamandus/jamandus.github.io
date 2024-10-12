@@ -3,6 +3,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.bundle/
 vendor
 
 # Drafts, not ready for publishing
@@ -12,15 +13,27 @@ _posts/drafts/*
 .DS_Store
 **/.DS_Store
 
-# IntelliJ IDEA
-.idea/workspace.xml
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# IntelliJ
+.idea/**/workspace.xml
+.idea/**/modules.xml
+.idea/**/tasks.xml
+.idea/**/jarRepositories.xml
+.idea/**/compiler.xml
+.idea/**/aws.xml
+.idea/**/usage.statistics.xml
 .idea/codeStyles/
-.idea/aws.xml
-.idea/uiDesigner.xml
+.idea/**/libraries/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
 *.iws
 *.iml
 *.ipr
+
+out/
+
