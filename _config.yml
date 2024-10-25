@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Local build settings
-#theme: minima
+#theme: minima   # TODO - needs to be switched off for remote_theme in order to build on GitHub Actions
 # GitHub Pages build settings
 remote_theme: jekyll/minima
 
