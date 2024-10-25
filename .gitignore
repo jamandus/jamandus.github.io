@@ -6,12 +6,8 @@ _site
 .bundle/
 vendor
 
-# Drafts, not ready for publishing
-_posts/drafts/*
-
 # Mac OS
 .DS_Store
-**/.DS_Store
 
 # IntelliJ
 .idea/**/workspace.xml
@@ -30,6 +26,7 @@ _posts/drafts/*
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/**/misc.xml
 
 *.iws
 *.iml

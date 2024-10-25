@@ -17,5 +17,7 @@ This project leveraging an array of AWS resources to build a mushroom-related ec
 - <a href="https://github.com/jamandus/tekk-mycelium-maestro" class="static-link">Tekk-Mycelium-Maestro:</a> A serverless API serving as the gateway for mushroom data management, designed to handle interactions with a serverless database. It supports operations like saving mushroom data, while integrating usage quotas, throttling, and logging for efficient resource control.
 - <a href="https://github.com/jamandus/tekk-spore-scrutinizer" class="static-link">Tekk-Spore-Scrutinizer:</a> An automated testing service designed to verify interactions between Tekk-Fungi components. It runs scheduled integration test suites, applies a BDD approach, and reports the results directly to Slack.
 <h3>GitHub Pages</h3>
-A learning journal I started to document the knowledge I gain, I briefly mention more thoughts in my initial post <a href="https://jamandus.github.io/2024/08/01/first-entry" class="static-link">first entry</a>.
+<br/>A learning journal I started to document the knowledge I gain, I briefly mention more thoughts in my initial post <a href="https://jamandus.github.io/2024/08/01/first-entry" class="static-link">first entry</a>.
 - <a href="https://jamandus.github.io/" class="static-link">jamandus.github.io:</a> A Static Jekyll Website, Minima theme V3
+<br/>
+<br/>

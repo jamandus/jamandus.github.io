@@ -33,8 +33,8 @@ $table-header-bg-color:  mediumpurple !default;
 $table-header-border:  mediumpurple !default;
 
 $brand-color:       $site-title-color !default;
-$brand-color-light: lighten($brand-color, 40%) !default;
-$brand-color-dark:  darken($brand-color, 25%) !default;
+$brand-color-light: scale-color($brand-color, $lightness: 40%) !default;
+$brand-color-dark:  scale-color($brand-color, $lightness: 25%) !default;
 
 $table-text-align: left !default;
 
